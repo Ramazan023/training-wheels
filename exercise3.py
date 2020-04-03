@@ -6,7 +6,11 @@
 # 2
 
 def solve():
-    pass
+    b = int(input('Введите b: '))
+    c = int(input('Введите c: '))
+
+    x = (c + 5 * b) / 3
+    print('Ответ: x=' + str(x))
 
 if __name__ == '__main__':
     solve()
