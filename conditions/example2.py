@@ -13,8 +13,13 @@
 
 
 def solve():
-    pass
+    x = int(input('Введите число от 0 до 100: '))
+    if x < 0 or x > 100:
+        print('Читай внимательнее!')
+    else:
+        print('Спасибо!')
 
+        
 
 if __name__ == '__main__':
     solve()
