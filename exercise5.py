@@ -11,7 +11,12 @@
 # -10.4999
 
 def solve():
-    pass
+    a = int(input('Введите a: '))
+    b = int(input('Введите b: '))
+    c = int(input('Введите c: '))
+
+    x = ((2 + a) * (2 * b - 3)) / ((3 + (a / c) - b) * 3)
+    print('Ответ x=' + str(x))
 
 if __name__ == '__main__':
     solve()
