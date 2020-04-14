@@ -31,11 +31,12 @@ def solve():
     # True, False - булевый литерал
 
     a = int(input('Введите a: '))
-    b = int(input('Введите b: '))
-    c = int(input('Введите c: '))
+    print(str(a))
+    a = int(input('Введите еще: '))
+    print(str(a))
+    a = int(input('Введите еще: '))
 
-    x = (c - b) / a
-    print('Ответ: x=' + str(x))
+    print(str(a))
 
 if __name__ == '__main__':
     solve()

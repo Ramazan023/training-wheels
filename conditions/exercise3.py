@@ -20,7 +20,22 @@
 # Точка лежит на прямой
 
 def solve():
-    pass
+    k = int(input('Введите коэффицент k: '))
+    b = int(input('Введите коэффицент b: '))
+    x = int(input('Введите координату x: '))
+    y = int(input('Введите координату y: '))
+
+    znachenie = k * x + b
+
+    if y == znachenie: 
+        print('Точка лежит на прямой')
+    else:
+        print('Точка не лежит на прямой')
+    
+
+
+
+       
 
 
 if __name__ == '__main__':
