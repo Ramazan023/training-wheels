@@ -16,7 +16,7 @@
 # 0, 26
 #
 # Пример входных данных 4:
-# 23, 1, 24, 1, 2
+# 23, 1, 24, 1, 2, 3
 # Пример выходных данных 4:
 # 1, 24
 #
@@ -25,9 +25,49 @@
 # Пример выходных данных 5:
 # 1, 7
 
-def solve():
-    pass
+def solve(): 
+    a = int(input('Введите число: '))
+    b = int(input('Введите число: '))
+    c = int(input('Введите число: '))
+    d = int(input('Введите число: '))
+    e = int(input('Введите число: '))
+    f = int(input('Введите число: '))
+
+    max = a
+    if b > max:
+        max = b
+    if c > max:
+        max = c
+    if d > max:
+        max = d
+    if e > max:
+        max = e
+    if f > max:
+        max = f
+    
+    
+    min = a
+    if b < min:
+        min = b
+    if c < min: 
+        min = c
+    if d < min:
+        min = d
+    if e < min:
+        min = e
+    if f < min: 
+        min = f
+
+    print(str(min) + ', ' + str(max))
 
 
+
+
+
+
+
+      
+    
+     
 if __name__ == '__main__':
     solve()
